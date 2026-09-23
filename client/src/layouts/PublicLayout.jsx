@@ -1,0 +1,1 @@
+import{Outlet}from'react-router-dom';import{useSite}from'../context/SiteContext';import Header from'../components/Header';import Footer from'../components/Footer';export default function PublicLayout(){const{content:d}=useSite();return <><Header data={d}/><main><Outlet/></main><Footer site={d.site}/></>}

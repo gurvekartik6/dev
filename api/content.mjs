@@ -1,0 +1,1 @@
+import {loadContent,json,corsHeaders} from '../server/vercel-lib.mjs';export default async function handler(request){if(request.method==='OPTIONS')return new Response(null,{status:204,headers:corsHeaders()});try{return json(await loadContent(),200,corsHeaders())}catch(e){return json({message:e.message},500,corsHeaders())}}

@@ -1,0 +1,2 @@
+import{useEffect,useState}from'react';import{Navigate,useLocation}from'react-router-dom';
+export default function Protected({children}){const[l,setL]=useState('checking');const loc=useLocation();useEffect(()=>{fetch('/api/admin/content',{credentials:'include'}).then(r=>setL(r.ok?'ok':'no')).catch(()=>setL('no'))},[]);if(l==='checking')return <div className="loading">Checking session…</div>;return l==='ok'?children:<Navigate to="/admin/login" replace state={{from:loc.pathname}}/>}
