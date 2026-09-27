@@ -8,7 +8,8 @@
     "dev:server": "node server/index.js",
     "build": "npm --prefix client run build",
     "preview": "npm --prefix client run preview",
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "postinstall": "npm --prefix client install"
   },
   "dependencies": {
     "concurrently": "^9.2.1",
@@ -18,6 +19,6 @@
     "jsonwebtoken": "^9.0.2"
   },
   "engines": {
-    "node": "20.x"
+    "node": "24.x"
   }
 }

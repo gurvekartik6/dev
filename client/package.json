@@ -1,6 +1,16 @@
 {
-  "name":"devsphere-client","private":true,"version":"2.0.0","type":"module",
-  "scripts":{"dev":"vite","build":"vite build","preview":"vite preview"},
-  "dependencies":{"framer-motion":"^12.23.12","lucide-react":"^0.468.0","react":"^19.1.1","react-dom":"^19.1.1","three":"^0.179.1","@react-three/fiber":"^9.3.0","@react-three/drei":"^10.7.3","react-router-dom":"^7.9.3"},
-  "devDependencies":{"@vitejs/plugin-react":"^5.0.2","vite":"^7.1.7"}
+  "name": "devsphere-client",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "vite": "^7.3.6"
+  }
 }
