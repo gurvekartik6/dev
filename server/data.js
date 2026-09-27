@@ -143,12 +143,12 @@ module.exports = {
     {
       "id": "e1",
       "title": "DevSphere Launch",
-      "date": "2026-10-10T10:00:00+05:30",
-      "dateLabel": "10 OCT 2026 • 10:00 AM",
+      "date": "2026-09-28T18:30:00+05:30",
+      "dateLabel": "28 SEPT 2026 • 06:30 PM",
       "type": "Community",
       "status": "Upcoming",
       "description": "Meet the founding team, explore the roadmap and discover how to build with DevSphere.",
-      "image": "/uploads/events/event-1.svg",
+      "image": "/uploads/events/1790508442373-lfvjq4-poster1.jpeg",
       "links": [
         {
           "id": "l1",
