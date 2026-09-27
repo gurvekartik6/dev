@@ -36,9 +36,7 @@ export default function Header({ data }) {
             {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
             <span>{theme === 'dark' ? 'Light' : 'Dark'}</span>
           </button>
-          <Link className="admin-link" to="/admin/login" onClick={() => setOpen(false)}>
-            Admin <ArrowUpRight size={15} />
-          </Link>
+          
         </nav>
       </div>
     </header>
